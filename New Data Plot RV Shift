@@ -1,0 +1,3 @@
+#New Data Plot
+wave_log = np.min(wave)*np.exp( np.log(np.max(wave)/np.min(wave))/somenumber*np.arange(nwave_log))
+drv = np.log(wave_log[1]/wave_log[0])*2.998e5

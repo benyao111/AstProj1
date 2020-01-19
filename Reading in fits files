@@ -1,0 +1,3 @@
+from astropy.io import fits
+hdu_list = fits.open('conv_T3200_G4.0_B0.0_M0.00_t2.0_R45000_V0.0.fits')
+hdu_list.info()
